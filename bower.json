@@ -1,0 +1,32 @@
+{
+  "name": "ng-impact-grid",
+  "description": "A ui component library written in angular",
+  "version": "0.0.8",
+  "main": [
+    "dist/impact-components.js",
+    "dist/lib.css"
+  ],
+  "ignore": [
+    "bower.json",
+    "contributors.txt",
+    "dist-prefix.js",
+    "dist-suffix.js",
+    "examples",
+    "gulpfile.js",
+    "karma.conf.js",
+    "LICENSE",
+    "README.md",
+    "package.json",
+    "src"
+  ],
+  "homepage": "https://github.com/newalexandria/impact-table-grid",
+  "license": "MIT",
+  "devDependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-loader": "~1.4.0",
+    "angular-mocks": "~1.4.0",
+    "html5-boilerplate": "~5.2.0",
+    "jquery": "~1.8"
+  }
+}

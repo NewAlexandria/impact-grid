@@ -1,0 +1,92 @@
+.mcc-grid-container {
+  font-size: 12px; }
+  .mcc-grid-container .can-scroll-x {
+    overflow-x: auto; }
+  .mcc-grid-container .can-scroll-y {
+    overflow-y: auto; }
+  .mcc-grid-container thead th {
+    padding: 8px; }
+  .mcc-grid-container tr:hover {
+    background: #f5f5f5; }
+    .mcc-grid-container tr:hover td {
+      background: #ecf1ff; }
+    .mcc-grid-container tr:hover th {
+      background: #fff; }
+  .mcc-grid-container td {
+    border-bottom: 1px solid #dad5cf;
+    padding: 8px; }
+    .mcc-grid-container td.mcc-delete-cell {
+      text-align: right; }
+      .mcc-grid-container td.mcc-delete-cell .mcc-delete-row-btn {
+        color: #000;
+        display: inline-block;
+        font: normal normal normal 14px/1px FontAwesome;
+        text-decoration: none; }
+        .mcc-grid-container td.mcc-delete-cell .mcc-delete-row-btn:before {
+          content: "\f057"; }
+        .mcc-grid-container td.mcc-delete-cell .mcc-delete-row-btn:hover:before {
+          color: red; }
+        .mcc-grid-container td.mcc-delete-cell .mcc-delete-row-btn.delete-in-progress:before {
+          color: #000;
+          content: "\f110";
+          animation: fa-spin 2s infinite linear; }
+  .mcc-grid-container .mcc-grid-pagination {
+    padding: 10px 15px;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #ddd;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; }
+    .mcc-grid-container .mcc-grid-pagination .clearfix:after {
+      clear: both; }
+    .mcc-grid-container .mcc-grid-pagination .total-results {
+      border-right: 1px solid #dad5cf;
+      float: left;
+      padding-right: 10px;
+      width: auto; }
+    .mcc-grid-container .mcc-grid-pagination .per-page {
+      color: #666;
+      float: left;
+      padding: 0 10px;
+      width: auto; }
+      .mcc-grid-container .mcc-grid-pagination .per-page ul, .mcc-grid-container .mcc-grid-pagination .per-page li, .mcc-grid-container .mcc-grid-pagination .per-page span {
+        display: inline-block; }
+      .mcc-grid-container .mcc-grid-pagination .per-page li {
+        padding: 2px; }
+      .mcc-grid-container .mcc-grid-pagination .per-page ul {
+        margin: 0;
+        padding: 0; }
+    .mcc-grid-container .mcc-grid-pagination .controls {
+      border-radius: 3px;
+      float: right;
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      .mcc-grid-container .mcc-grid-pagination .controls li {
+        float: left; }
+        .mcc-grid-container .mcc-grid-pagination .controls li.counter {
+          padding: 0 10px; }
+        .mcc-grid-container .mcc-grid-pagination .controls li button {
+          background: #fff;
+          border: 1px solid #eee;
+          box-sizing: border-box;
+          color: #333;
+          display: block;
+          font-size: 15px;
+          height: 22px;
+          line-height: 1;
+          width: 33px;
+          text-align: center; }
+          .mcc-grid-container .mcc-grid-pagination .controls li button:focus {
+            outline: 0; }
+          .mcc-grid-container .mcc-grid-pagination .controls li button:hover {
+            background: #eee; }
+          .mcc-grid-container .mcc-grid-pagination .controls li button[disabled] {
+            background: #fff; }
+        .mcc-grid-container .mcc-grid-pagination .controls li input {
+          background-color: #fff;
+          border-radius: 0;
+          box-sizing: border-box;
+          height: 22px;
+          text-align: center;
+          width: 32px; }
