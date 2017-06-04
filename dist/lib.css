@@ -1,0 +1,92 @@
+.impact-grid-container {
+  font-size: 12px; }
+  .impact-grid-container .can-scroll-x {
+    overflow-x: auto; }
+  .impact-grid-container .can-scroll-y {
+    overflow-y: auto; }
+  .impact-grid-container thead th {
+    padding: 8px; }
+  .impact-grid-container tr:hover {
+    background: #f5f5f5; }
+    .impact-grid-container tr:hover td {
+      background: #ecf1ff; }
+    .impact-grid-container tr:hover th {
+      background: #fff; }
+  .impact-grid-container td {
+    border-bottom: 1px solid #dad5cf;
+    padding: 8px; }
+    .impact-grid-container td.impact-delete-cell {
+      text-align: right; }
+      .impact-grid-container td.impact-delete-cell .impact-delete-row-btn {
+        color: #000;
+        display: inline-block;
+        font: normal normal normal 14px/1px FontAwesome;
+        text-decoration: none; }
+        .impact-grid-container td.impact-delete-cell .impact-delete-row-btn:before {
+          content: "\f057"; }
+        .impact-grid-container td.impact-delete-cell .impact-delete-row-btn:hover:before {
+          color: red; }
+        .impact-grid-container td.impact-delete-cell .impact-delete-row-btn.delete-in-progress:before {
+          color: #000;
+          content: "\f110";
+          animation: fa-spin 2s infinite linear; }
+  .impact-grid-container .impact-grid-pagination {
+    padding: 10px 15px;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #ddd;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; }
+    .impact-grid-container .impact-grid-pagination .clearfix:after {
+      clear: both; }
+    .impact-grid-container .impact-grid-pagination .total-results {
+      border-right: 1px solid #dad5cf;
+      float: left;
+      padding-right: 10px;
+      width: auto; }
+    .impact-grid-container .impact-grid-pagination .per-page {
+      color: #666;
+      float: left;
+      padding: 0 10px;
+      width: auto; }
+      .impact-grid-container .impact-grid-pagination .per-page ul, .impact-grid-container .impact-grid-pagination .per-page li, .impact-grid-container .impact-grid-pagination .per-page span {
+        display: inline-block; }
+      .impact-grid-container .impact-grid-pagination .per-page li {
+        padding: 2px; }
+      .impact-grid-container .impact-grid-pagination .per-page ul {
+        margin: 0;
+        padding: 0; }
+    .impact-grid-container .impact-grid-pagination .controls {
+      border-radius: 3px;
+      float: right;
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      .impact-grid-container .impact-grid-pagination .controls li {
+        float: left; }
+        .impact-grid-container .impact-grid-pagination .controls li.counter {
+          padding: 0 10px; }
+        .impact-grid-container .impact-grid-pagination .controls li button {
+          background: #fff;
+          border: 1px solid #eee;
+          box-sizing: border-box;
+          color: #333;
+          display: block;
+          font-size: 15px;
+          height: 22px;
+          line-height: 1;
+          width: 33px;
+          text-align: center; }
+          .impact-grid-container .impact-grid-pagination .controls li button:focus {
+            outline: 0; }
+          .impact-grid-container .impact-grid-pagination .controls li button:hover {
+            background: #eee; }
+          .impact-grid-container .impact-grid-pagination .controls li button[disabled] {
+            background: #fff; }
+        .impact-grid-container .impact-grid-pagination .controls li input {
+          background-color: #fff;
+          border-radius: 0;
+          box-sizing: border-box;
+          height: 22px;
+          text-align: center;
+          width: 32px; }

@@ -1,0 +1,13 @@
+<!-- there is a bug in this version of angular that makes
+     impossible to use TABLE, TH, TR, TD as directive elements
+     to be replace in templates :( -->
+<thead>
+  <tr>
+      <th ng-repeat="thCol in HeaderCtrl.firstHeaderRow"
+          class="impact-grid-th"></th>
+  </tr>
+  <tr ng-if="HeaderCtrl.hasGroupedColumns">
+     <th class="impact-grid-th"
+         ng-repeat="thCol in HeaderCtrl.secondHeaderRow"></th>
+  </tr>
+</thead>

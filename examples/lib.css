@@ -1,0 +1,33 @@
+.impact-grid-container {
+  border: 1px solid #ddd; }
+  .impact-grid-container .can-scroll-x {
+    overflow-x: auto; }
+  .impact-grid-container .can-scroll-y {
+    overflow-y: auto; }
+  .impact-grid-container table {
+    width: 100%; }
+  .impact-grid-container thead th {
+    background: #f5f4f2;
+    padding: 8px; }
+  .impact-grid-container tr:hover {
+    background: #f5f5f5; }
+    .impact-grid-container tr:hover td {
+      background: #ecf1ff; }
+  .impact-grid-container td {
+    border-bottom: 1px solid #dad5cf;
+    padding: 8px; }
+    .impact-grid-container td.impact-delete-cell {
+      text-align: right; }
+      .impact-grid-container td.impact-delete-cell .impact-delete-row-btn {
+        color: #000;
+        display: inline-block;
+        font-family: FontAwesome;
+        text-decoration: none; }
+        .impact-grid-container td.impact-delete-cell .impact-delete-row-btn:before {
+          content: "\f057"; }
+        .impact-grid-container td.impact-delete-cell .impact-delete-row-btn:hover:before {
+          color: red; }
+        .impact-grid-container td.impact-delete-cell .impact-delete-row-btn.delete-in-progress:before {
+          color: #000;
+          content: "\f110";
+          animation: fa-spin 2s infinite linear; }

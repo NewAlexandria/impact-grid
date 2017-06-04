@@ -1,0 +1,9 @@
+<div class="impact-grid-body-container" ng-style="{'height': BodyCtrl.getHeight()}" ng-class="{'can-scroll-x': BodyCtrl.canScrollX(), 'can-scroll-y': BodyCtrl.canScrollY()}">
+  <table>
+    <tbody>
+      <tr ng-repeat="row in GridCtrl.getViewPortRows()">
+        <td class="impact-grid-td" ng-repeat="cell in row.getCells()"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
